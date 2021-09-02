@@ -1,0 +1,16 @@
+.top-nav{
+    background-color: #0c7cec;
+    padding: 6px 0;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        li{
+            margin-left: 48px;
+            a{
+                font-size: 12px;
+                color: #fff;
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+        }
+    }
+}
