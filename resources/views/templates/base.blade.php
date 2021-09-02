@@ -11,9 +11,10 @@
     <div class=top-nav>
         @include('templates.top-nav')
     </div>
-    <header class="container">
+    <header>
         @include('templates.header')
     </header>
+    <div class="jumbotron"></div>
     <main>
         @yield('content')
     </main>

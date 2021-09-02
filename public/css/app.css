@@ -1,7 +1,27 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap);
 
-0,700;1,400&display=swap);header {
-  height: 80px;
+.top-nav {
+  background-color: #0c7cec;
+  padding: 6px 0;
+}
+
+.top-nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-nav ul li {
+  margin-left: 48px;
+}
+
+.top-nav ul li a {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  height: 85px;
   padding: 12px 0;
 }
 
@@ -39,24 +59,93 @@ header nav input {
   border-bottom: 2px solid #0c7cec;
 }
 
-.top-nav {
-  background-color: #0c7cec;
-  padding: 6px 0;
+footer .section-link {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  padding: 40px 0;
 }
 
-.top-nav ul {
+footer .section-link .container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
-.top-nav ul li {
-  margin-left: 48px;
+footer .section-link .left-side {
+  display: flex;
 }
 
-.top-nav ul li a {
-  font-size: 12px;
-  color: #fff;
+footer .section-link .left-side li {
+  color: white;
+  padding: 6px 24px 0 0;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+footer .section-link .left-side li:first-child {
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+
+footer .section-link .left-side li:last-child {
+  padding-bottom: 14px;
+}
+
+footer .section-link .left-side a {
+  color: gray;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+footer .section-link .left-side a:hover {
+  color: #fff;
+}
+
+footer .section-link .right-side img {
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-100%, -50%);
+}
+
+footer .social {
+  background-color: #303030;
+}
+
+footer .social .container {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 80px;
+}
+
+footer .social .container span {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer .social .container .left-side span {
+  color: white;
+  padding: 10px;
+  border: 1px solid #0c7cec;
+  box-shadow: 0 0 2px 1px #0c7cec;
+}
+
+footer .social .container .left-side span:hover {
+  border: 2px solid #0c7cec;
+  box-shadow: 0 0 4px 2px #0c7cec;
+  cursor: pointer;
+}
+
+footer .social .container .right-side span {
+  color: #0c7cec;
+}
+
+footer .social .container .right-side img {
+  padding-left: 15px;
+  vertical-align: middle;
 }
 
 * {
@@ -64,10 +153,6 @@ header nav input {
   padding: 0;
   margin: 0;
   font-family: "Roboto", serif;
-}
-
-.roboto {
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 .container {
@@ -86,5 +171,10 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.jumbotron {
+  background-image: url(/images/jumbotron.jpg);
+  height: 400px;
 }
 

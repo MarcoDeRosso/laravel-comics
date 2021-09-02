@@ -1,0 +1,82 @@
+footer{
+    .section-link {
+        background-image: url("/images/footer-bg.jpg");
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+        padding: 40px 0;
+        .container {
+          display: flex;
+          justify-content: space-between;
+        }
+        .left-side {
+          display: flex;
+          li {
+            color: white;
+            padding: 6px 24px 0 0;
+            font-family: "Roboto Condensed", sans-serif;
+            &:first-child {
+              font-weight: bold;
+              padding-bottom: 14px;
+            }
+            &:last-child {
+              padding-bottom: 14px;
+            }
+          }
+          a {
+            color: gray;
+            font-family: "Roboto Condensed", sans-serif;
+            &:hover{
+                color: #fff;
+            }
+          }
+        }
+        .right-side {
+          img {
+            height: 550px;
+            position: absolute;
+            top: 50%;
+            transform: translate(-100%, -50%);
+          }
+        }
+      }
+      .social {
+        background-color: #303030;
+        .container {
+          z-index: 1;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          line-height: 80px;
+          span {
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+          }
+          .left-side {
+            span {
+              color: white;
+              padding: 10px;
+              border: 1px solid #0c7cec;
+              box-shadow: 0 0 2px 1px #0c7cec;
+              &:hover{
+                border: 2px solid #0c7cec;
+                box-shadow: 0 0 4px 2px #0c7cec;
+                cursor: pointer;
+              }
+            }
+          }
+          .right-side {
+            span {
+              color: #0c7cec;
+            }
+            img {
+              padding-left: 15px;
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+
+}

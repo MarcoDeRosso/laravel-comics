@@ -1,8 +1,8 @@
 //
 
+@import "top-nav";
 @import "header";
 @import "footer";
-@import "top-nav";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap');
 
 * {
@@ -12,10 +12,6 @@
     font-family: 'Roboto', serif;
   }
 
-  .roboto {
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  
   .container {
     width: 1200px;
     margin: 0 auto;
@@ -33,3 +29,7 @@
   a {
     text-decoration: none;
   }
+.jumbotron{
+    background-image: url(/images/jumbotron.jpg);
+    height: 400px;
+ }

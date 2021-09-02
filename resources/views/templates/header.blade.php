@@ -1,4 +1,4 @@
-<nav>
+<nav class="container">
     <div class="logo">
      <img src="/images/dc-logo.png" alt="Logo DC" />
     </div>
