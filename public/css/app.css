@@ -48,6 +48,21 @@ header nav input {
   border-bottom: 2px solid #0c7cec;
 }
 
+main {
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+}
+main .home-page-content .img-container {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+main .home-page-content h3 {
+  margin: 12px 0;
+}
+
 footer .section-link {
   background-image: url("/images/footer-bg.jpg");
   background-size: cover;
@@ -150,4 +165,13 @@ a {
 .jumbotron {
   background-image: url(/images/jumbotron.jpg);
   height: 400px;
+  background-size: cover;
+}
+
+.col-2 {
+  width: calc(100% / 6);
+}
+
+.px-15 {
+  padding: 0 15px;
 }
