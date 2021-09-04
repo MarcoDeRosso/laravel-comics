@@ -1,17 +1,25 @@
 main{
-    background-color: black;
-    color: #fff;
-    padding: 30px;
-    .home-page-content{
-    
-        .img-container {
-            width: 150px;
-            height: 150px;
-            background-position: center;
-            background-size: cover;
-          }
-        h3{
-            margin: 12px 0;
+    .black-bacground{
+        background-color: black;
+        .home-page-content{
+            padding: 30px;
+            a{
+                color: #7e7e7e;
+                text-decoration: none;
+                &:hover{
+                    color: #fff;
+                }
+            }
+            .img-container {
+                width: 150px;
+                height: 150px;
+                background-position: center;
+                background-size: cover;
+              }
+            h3{
+                margin: 12px 0;
+                font-size: 12px;
+            }
         }
     }
 }

@@ -1,6 +1,7 @@
 header {
     height: 85px;
     padding: 12px 0;
+    background: #fff;
     nav {
       display: flex;
       justify-content: space-between;
@@ -20,6 +21,7 @@ header {
             &:hover {
               color:#0c7cec;
               border-bottom: 5px solid#0c7cec;
+              text-decoration: none;
             }
           }
         }

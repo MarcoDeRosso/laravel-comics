@@ -12,6 +12,7 @@
 @import "top-nav";
 @import "header";
 @import "homepage";
+@import "productpage";
 @import "footer";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap');
 
@@ -43,6 +44,7 @@ a {
   background-image: url(/images/jumbotron.jpg);
   height: 400px;
   background-size: cover;
+  margin: 0;
 }
 .col-custom-2 {
 width: calc(100% / 6);
