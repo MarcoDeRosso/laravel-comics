@@ -5,7 +5,7 @@
     <div class="menu">
         <ul>
           <li><a href="">CHARACTERS</a></li>
-          <li><a href="{{route ('homepage')}}">COMICS</a></li>
+          <li ><a class="{{ Request::route()->getName() === 'homepage' ? 'active' : '' }}" href="{{route ('homepage')}}">COMICS</a></li>
           <li><a href="">MOVIES</a></li>
           <li><a href="">TV</a></li>
           <li><a href="">GAMES</a></li>

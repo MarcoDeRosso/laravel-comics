@@ -28,6 +28,11 @@ footer{
             font-family: "Roboto Condensed", sans-serif;
             &:hover{
                 color: #fff;
+                text-decoration: none;
+            }
+            &.active{
+              color:#fff;
+              text-decoration: none;
             }
           }
         }

@@ -10047,6 +10047,10 @@ header nav ul li a:hover {
   border-bottom: 5px solid #0c7cec;
   text-decoration: none;
 }
+header nav ul li a.active {
+  color: #0c7cec;
+  border-bottom: 5px solid #0c7cec;
+}
 header nav input {
   font-family: "Roboto Condensed", sans-serif;
   text-align: right;
@@ -10154,6 +10158,11 @@ footer .section-link .left-side a {
 }
 footer .section-link .left-side a:hover {
   color: #fff;
+  text-decoration: none;
+}
+footer .section-link .left-side a.active {
+  color: #fff;
+  text-decoration: none;
 }
 footer .section-link .right-side img {
   height: 550px;

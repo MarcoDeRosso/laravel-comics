@@ -23,6 +23,10 @@ header {
               border-bottom: 5px solid#0c7cec;
               text-decoration: none;
             }
+            &.active{
+              color:#0c7cec;
+              border-bottom: 5px solid#0c7cec;
+            }
           }
         }
       }

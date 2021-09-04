@@ -5,7 +5,7 @@
             <ul>
               <li class="bold">DC COMICS</li>
               <li><a href="">Characters</a></li>
-              <li><a href="">Comics</a></li>
+              <li><a class="{{ Request::route()->getName() === 'homepage' ? 'active' : '' }}" href="{{route ('homepage')}}">Comics</a></li>
               <li><a href="">Movies</a></li>
               <li><a href="">TV</a></li>
               <li><a href="">Games</a></li>
