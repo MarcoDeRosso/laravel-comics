@@ -10078,14 +10078,53 @@ main .black-bacground .home-page-content h3 {
   font-size: 12px;
 }
 
+.blue-row {
+  background-color: #0c7cec;
+  position: relative;
+  height: 60px;
+}
+.blue-row img {
+  position: absolute;
+  bottom: 30px;
+}
+
 .product-main {
   background: #fff;
+  padding: 48px 0;
+}
+.product-main .green {
+  background-color: #55ba59;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.product-main .green-price {
+  padding: 12px;
+  width: 70%;
+  border-right: 1px solid #357739;
+}
+.product-main .green-av {
+  padding: 12px;
+  width: 20%;
+}
+.product-main .details {
+  width: 40%;
+}
+.product-main .details-inner h5 {
+  width: 25%;
+}
+.product-main .details-inner p {
+  width: 70%;
+}
+.product-main .details-inner a {
+  width: 70%;
+}
+.product-main .details-inner span {
+  width: 70%;
 }
 
 footer .section-link {
   background-image: url("/images/footer-bg.jpg");
   background-size: cover;
-  height: 400px;
   position: relative;
   overflow: hidden;
   padding: 40px 0;

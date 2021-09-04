@@ -1,6 +1,6 @@
 <section class="section-link">
       <div class="container">
-        <div class="left-side">
+        <div class="row left-side">
           <div>
             <ul>
               <li class="bold">DC COMICS</li>
